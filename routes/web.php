@@ -12,7 +12,7 @@ Route::get('/', function () {
 
 
 Route::get('/about', function () {
-    return view ('Asyifa Aulia Rahma'); 
+    return view ('about'); 
 });
 
 Route::get('/login', function () {
