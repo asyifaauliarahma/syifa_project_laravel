@@ -93,6 +93,10 @@
                     <p class="text-gray-700">Layanan Screening Covid19 dalam rangka mempercepat tracing dan screening covid19 agar lebih cepat dan akurat.</p>
                 </div>
             </div>
+            <div class="flex justify-center mt-8">
+    <a href="{{ route ('about') }}" class="text-1xl font-bold mb-4">Selengkapnya...</a>
+</div>
+
         </div>
     </section>
 
@@ -108,5 +112,6 @@
             $("#loader").fadeOut();
         });
     </script>
+    
 </body>
 </html>
